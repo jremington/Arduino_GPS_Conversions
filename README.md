@@ -8,7 +8,7 @@ No operational instructions are given here, but the test program should run "out
 Printed output is in .CSV format for spreadsheet evaluation. In my tests with an Arduino Uno R3 (32 bit single precision floats)
 the input and output lat/lon pairs differ by at most about 1 meter, so the accuracy is acceptable for normal outdoor activites. I have not yet tested the setup on an Arduino that supports 64 bit double precision. Will update this after doing that.
 
-To check accuracy and verify correction of MGRS symbols, I use and recommend this all in one online converter
+To check accuracy and verify correctness of MGRS symbols, I use and recommend this all in one online converter
 
 https://rcn.montana.edu/Resources/Converter.aspx
 
