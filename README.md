@@ -1,4 +1,4 @@
-## Interconvert WGS84 lat/lon, MGRS and UTM coordinate systems
+## Interconvert WGS84 lat/lon, MGRS and UTM coordinate systems on Arduino
 
 This repository hosts a single Arduino program that is a collection of functions from other sources (with links to the originals)
 that functions interconvert GPS coordinate systems WGS84, UTM and MGRS. Latitude range is restricted to -80 to 84 degrees.
