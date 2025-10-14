@@ -11,3 +11,5 @@ the input and output lat/lon pairs differ by at most about 1 meter, so the accur
 To check accuracy and verify correction of MGRS symbols, I use and recommend this all in one online converter
 
 https://rcn.montana.edu/Resources/Converter.aspx
+
+The .h files should be placed in the same sketch folder as the Arduino program.
