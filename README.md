@@ -8,7 +8,7 @@ No operational instructions are given here, but the test program should run "out
 Printed output of the test suite is in .CSV format for spreadsheet evaluation. Tested with an Arduino Uno R3 (32 bit single precision floats) and an Adafruit 
 Feather SAMD21 M0 (64 bit doubles). 
 
-With 32 bit floats the input and output lat/lon pairs differ by at most about 1 meter, so even in that case the accuracy is comparable to consumer GPS units and acceptable for normal outdoor activities.
+With 32 bit floats the input and output lat/lon pairs differ by at most about 1 meter, so even in that case the accuracy is comparable to consumer GPS units and acceptable for casual outdoor activities.
 
 To check conversion accuracy and verify correctness of MGRS symbols, I used and recommend this online converter
 
