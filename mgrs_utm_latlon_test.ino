@@ -78,7 +78,7 @@ double rad2deg(double r) {
 //  valid latitude range -80 to 84 degrees
 
 char UTMLetterDesignator(double Lat) {
-  if (Lat < -80) return 'Z';  //error return
+  if (Lat < -80 || Lat > 84) return 'Z';  //error return
   if (Lat >= 72 && Lat <= 84) return 'X';  //special case not in lookup SJR
   const char letters[] = "CDEFGHJKLMNPQRSTUVWX";
   int i = (Lat + 80) / 8;
@@ -784,3 +784,4 @@ int UTMToLL(long easting, long northing, int zone, bool isNorthernHemisphere, do
   lon = lonOrigin + lonRad * 180.0 / PI;
   return 0;
 }
+
