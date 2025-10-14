@@ -10,4 +10,5 @@ Printed output is in .CSV format for spreadsheet evaluation. In my tests with an
 the input and output lat/lon pairs differ by at most about 1 meter, so the accuracy is acceptable for normal outdoor activites.
 
 To check accuracy and verify correction of MGRS symbols, I use and recommend this all in one online converter
+
 https://rcn.montana.edu/Resources/Converter.aspx
