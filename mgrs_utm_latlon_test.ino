@@ -478,7 +478,6 @@ void Get_Grid_Values (long zone,
 
 // UTM.c  convert from WGS84 lat/long to UTM
 //
-// (the code for the reverse operation from this source fails on some inputs)
 // https://alephnull.net/software/gis/UTM_WGS84_C_plus_plus.shtml
 // Original Javascript by Chuck Taylor
 // Port to C++ by Alex Hajnal
@@ -784,4 +783,5 @@ int UTMToLL(long easting, long northing, int zone, bool isNorthernHemisphere, do
   lon = lonOrigin + lonRad * 180.0 / PI;
   return 0;
 }
+
 
